@@ -2,9 +2,10 @@ import { StatusBar } from "expo-status-bar";
 import { TouchableOpacity, StyleSheet, Text, View } from "react-native";
 import React, { useState, useEffect } from "react";
 import * as Location from "expo-location";
+import MapViewDirections from "react-native-maps-directions";
 
-import MapView, { Marker } from "react-native-maps";
-import sheltersData from "./shelterList.json";
+import MapView, { PROVIDER_GOOGLE, Marker } from "react-native-maps";
+import sheltersData from "./shelterListDnepr.json";
 export default function App() {
   const [shelters, setShelters] = useState(sheltersData);
   const [userLocation, setUserLocation] = useState(null);
@@ -49,7 +50,7 @@ export default function App() {
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
           });
-          locationSubscription.remove(); // Остановить подписку после первой полученной позиции
+          locationSubscription.remove();
         }
       );
     } catch (error) {
@@ -58,25 +59,30 @@ export default function App() {
   };
 
   const getNearestShelter = () => {
-    let nearestShelter = shelters[0];
-    let minDistance = getDistance(userLocation, shelters[0].coordinates);
+    if (userLocation == null) {
+      return 0;
+    } else {
+      let nearestShelter = shelters[0];
+      let minDistance = getDistance(userLocation, shelters[0].coordinates);
 
-    for (let i = 1; i < shelters.length; i++) {
-      const distance = getDistance(userLocation, shelters[i].coordinates);
-      if (distance < minDistance) {
-        minDistance = distance;
-        nearestShelter = shelters[i];
+      for (let i = 1; i < shelters.length; i++) {
+        const distance = getDistance(userLocation, shelters[i].coordinates);
+        if (distance < minDistance) {
+          minDistance = distance;
+          nearestShelter = shelters[i];
+        }
       }
+      setNearestShelter({
+        latitude: nearestShelter.coordinates.latitude,
+        longitude: nearestShelter.coordinates.longitude,
+      });
+      setMapRegion({
+        latitudeDelta: 0.03,
+        longitudeDelta: 0.03,
+        latitude: nearestShelter.coordinates.latitude,
+        longitude: nearestShelter.coordinates.longitude,
+      });
     }
-    setNearestShelter({
-      latitude: nearestShelter.coordinates.latitude,
-      longitude: nearestShelter.coordinates.longitude,
-    });
-    setMapRegion({
-      ...mapRegion,
-      latitude: nearestShelter.coordinates.latitude,
-      longitude: nearestShelter.coordinates.longitude,
-    });
   };
   const getDistance = (coord1, coord2) => {
     const R = 6371;
@@ -99,40 +105,44 @@ export default function App() {
       <View style={styles.mapContainer}>
         <MapView
           style={styles.map}
+          provider={PROVIDER_GOOGLE}
+          showsUserLocation={true}
           region={mapRegion}
           onRegionChangeComplete={onRegionChangeComplete}
         >
-          {userLocation && (
-            <Marker
-              coordinate={userLocation}
-              title="Ваша позиция"
-              pinColor="black" // Цвет маркера
-            />
-          )}
           {shelters.map((shelter, index) => (
             <Marker
               key={index}
               coordinate={shelter.coordinates}
               title={shelter.title}
+              onPress={() => setNearestShelter(shelter.coordinates)}
               pinColor={
                 nearestShelter &&
                 nearestShelter.latitude === shelter.coordinates.latitude &&
                 nearestShelter.longitude === shelter.coordinates.longitude
                   ? "red"
-                  : "blue"
+                  : "green"
               }
             />
           ))}
+          {nearestShelter.latitude !== 0 ? (
+            <MapViewDirections
+              origin={userLocation}
+              destination={nearestShelter}
+              apikey="AIzaSyB0slnHODkNOXye0Tv3mKTYY3FEPbYcaOQ"
+              strokeWidth={4}
+              strokeColor="red"
+              mode="WALKING"
+            />
+          ) : null}
         </MapView>
       </View>
 
       <TouchableOpacity style={styles.button} onPress={getUserLocation}>
-        <Text style={styles.buttonText}>Найти меня</Text>
+        <Text style={styles.buttonText}>Де я ?</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonText} onPress={getNearestShelter}>
-          Ближайшее укрытие
-        </Text>
+      <TouchableOpacity style={styles.button} onPress={getNearestShelter}>
+        <Text style={styles.buttonText}>Найближче укриття</Text>
       </TouchableOpacity>
     </View>
   );
