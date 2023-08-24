@@ -439,5 +439,561 @@
       "latitude": 48.4257268129623,
       "longitude": 35.011876
     }
+  },
+
+  {
+    "title": "вулиця Ударників, 54",
+    "coordinates": { "latitude": 48.479461, "longitude": 34.9937971 }
+  },
+  {
+    "title": "вулиця Сухий Острів, 3",
+    "coordinates": {
+      "latitude": 48.47522406515072,
+      "longitude": 34.95995860674642
+    }
+  },
+  {
+    "title": "вулиця Юдіна, 11",
+    "coordinates": { "latitude": 48.458776, "longitude": 34.966194 }
+  },
+  {
+    "title": "Волзька вулиця, 26",
+    "coordinates": {
+      "latitude": 48.46790135938319,
+      "longitude": 34.9722029337321
+    }
+  },
+  {
+    "title": "вулиця Набережна Заводська, 39",
+    "coordinates": {
+      "latitude": 48.492835164146065,
+      "longitude": 34.95858764907498
+    }
+  },
+  {
+    "title": "вулиця Ударників, 42",
+    "coordinates": { "latitude": 48.479461, "longitude": 34.9937971 }
+  },
+  {
+    "title": "вулиця Ударників, 31",
+    "coordinates": {
+      "latitude": 48.47991459145821,
+      "longitude": 34.991899364417854
+    }
+  },
+  {
+    "title": "вулиця Набережна Заводська, 17",
+    "coordinates": {
+      "latitude": 48.485713134268266,
+      "longitude": 35.00412883558213
+    }
+  },
+  {
+    "title": "вулиця Ударників, 44",
+    "coordinates": {
+      "latitude": 48.47993987943144,
+      "longitude": 34.99170673558214
+    }
+  },
+  {
+    "title": "Весняна вулиця, 99",
+    "coordinates": {
+      "latitude": 48.464060269612965,
+      "longitude": 34.91169615092502
+    }
+  },
+  {
+    "title": "вулиця Привокзальна, 8",
+    "coordinates": {
+      "latitude": 48.43959838186806,
+      "longitude": 34.805318735582134
+    }
+  },
+  {
+    "title": "вулиця Орловська, 36",
+    "coordinates": { "latitude": 48.465625, "longitude": 34.986845 }
+  },
+  {
+    "title": "вулиця Фортечна, 25",
+    "coordinates": {
+      "latitude": 48.484089116264485,
+      "longitude": 34.95971070674642
+    }
+  },
+  {
+    "title": "вулиця Квітки-Основ'яненка, 5",
+    "coordinates": {
+      "latitude": 48.48832467259136,
+      "longitude": 34.96607773558214
+    }
+  },
+  {
+    "title": "вул. Маяковського, 31",
+    "coordinates": { "latitude": 48.476539, "longitude": 34.971281 }
+  },
+  {
+    "title": "Орбітальна вулиця, 13",
+    "coordinates": {
+      "latitude": 48.471923583195874,
+      "longitude": 34.93764870674643
+    }
+  },
+  {
+    "title": "Коксохімічна вулиця, 1",
+    "coordinates": {
+      "latitude": 48.47419447873903,
+      "longitude": 34.967728277910695
+    }
+  },
+  {
+    "title": "вулиця Чеботарьова, 28",
+    "coordinates": { "latitude": 48.4572856, "longitude": 34.9561714 }
+  },
+  {
+    "title": "Криворізьке шосе, 2",
+    "coordinates": {
+      "latitude": 48.43714869753239,
+      "longitude": 34.950277864417856
+    }
+  },
+  {
+    "title": "вулиця Мічуріна, 9",
+    "coordinates": { "latitude": 48.4729765, "longitude": 34.9858648 }
+  },
+  {
+    "title": "вулиця Караваєва, 68",
+    "coordinates": {
+      "latitude": 48.461500047316164,
+      "longitude": 34.9712613779107
+    }
+  },
+  {
+    "title": "вулиця Ганни Барвінок, 1",
+    "coordinates": {
+      "latitude": 48.48607144431825,
+      "longitude": 34.949009106746416
+    }
+  },
+  {
+    "title": "вулиця Данила Галицького, 2а",
+    "coordinates": {
+      "latitude": 48.468515457747635,
+      "longitude": 34.93682360674642
+    }
+  },
+  {
+    "title": "вулиця Новоорловська, 2",
+    "coordinates": { "latitude": 48.464451, "longitude": 34.985226 }
+  },
+  {
+    "title": "вулиця Мічуріна, 4",
+    "coordinates": { "latitude": 48.474269, "longitude": 34.986463 }
+  },
+  {
+    "title": "Запасна вулиця, 7",
+    "coordinates": {
+      "latitude": 48.52673674592771,
+      "longitude": 35.08926755092502
+    }
+  },
+  {
+    "title": "вулиця Журналістів, 13",
+    "coordinates": { "latitude": 48.510192, "longitude": 35.0951648 }
+  },
+  {
+    "title": "Киснева вулиця, 47",
+    "coordinates": {
+      "latitude": 48.52292908899435,
+      "longitude": 35.08437669325357
+    }
+  },
+  {
+    "title": "пр-т. Слобожанский, 20",
+    "coordinates": {
+      "latitude": 48.4953222863368,
+      "longitude": 35.07128089325358
+    }
+  },
+  {
+    "title": "Киснева вулиця, 1",
+    "coordinates": {
+      "latitude": 48.52288368908987,
+      "longitude": 35.08950463558214
+    }
+  },
+  {
+    "title": "вулиця Журналістів, 9",
+    "coordinates": { "latitude": 48.510192, "longitude": 35.0951648 }
+  },
+  {
+    "title": "вулиця Журналістів, 15",
+    "coordinates": { "latitude": 48.510192, "longitude": 35.0951648 }
+  },
+  {
+    "title": "вулиця Артільна, 9Б",
+    "coordinates": {
+      "latitude": 48.48776734122694,
+      "longitude": 35.071368835582135
+    }
+  },
+  {
+    "title": "вулиця Столєтова, 21",
+    "coordinates": { "latitude": 48.493458, "longitude": 35.074112 }
+  },
+  {
+    "title": "вулиця Журналістів, 11",
+    "coordinates": { "latitude": 48.510192, "longitude": 35.0951648 }
+  },
+  {
+    "title": "вулиця Батумська, 13",
+    "coordinates": { "latitude": 48.516165, "longitude": 35.085428 }
+  },
+  {
+    "title": "вулиця Журналістів, 7",
+    "coordinates": { "latitude": 48.510192, "longitude": 35.0951648 }
+  },
+  {
+    "title": "вулиця Байкальська, 9",
+    "coordinates": { "latitude": 48.412933, "longitude": 35.012896 }
+  },
+  {
+    "title": "вулиця Олександра Оцупа, 2",
+    "coordinates": {
+      "latitude": 48.506852806432164,
+      "longitude": 35.109457693253574
+    }
+  },
+  {
+    "title": "Киснева вулиця, 3а",
+    "coordinates": {
+      "latitude": 48.521711603780886,
+      "longitude": 35.08663047791071
+    }
+  },
+  {
+    "title": "ул. Одесская, 7",
+    "coordinates": {
+      "latitude": 48.521858848636924,
+      "longitude": 34.52777617791071
+    }
+  },
+  {
+    "title": "Бутова вулиця, 219",
+    "coordinates": {
+      "latitude": 48.5372698117445,
+      "longitude": 35.12123086441787
+    }
+  },
+  {
+    "title": "Роз'їзна вулиця, 9",
+    "coordinates": {
+      "latitude": 48.47281073886672,
+      "longitude": 35.18927383558214
+    }
+  },
+  {
+    "title": "вулиця Масивна, 22",
+    "coordinates": { "latitude": 48.4796535, "longitude": 35.130923 }
+  },
+  {
+    "title": "вулиця Бехтерєва, 1",
+    "coordinates": {
+      "latitude": 48.47576071333293,
+      "longitude": 35.178976391403545
+    }
+  },
+  {
+    "title": "вулиця Молодогвардійська, 32",
+    "coordinates": { "latitude": 48.476671, "longitude": 35.124095 }
+  },
+  {
+    "title": "вулиця Генерала Радієвського, 4",
+    "coordinates": {
+      "latitude": 48.48651634350731,
+      "longitude": 35.130401477910695
+    }
+  },
+  {
+    "title": "вулиця Механічна, 22",
+    "coordinates": { "latitude": 48.4780564, "longitude": 35.1178625 }
+  },
+  {
+    "title": "вулиця Курсантська, 24",
+    "coordinates": { "latitude": 48.4963442, "longitude": 35.1179757 }
+  },
+  {
+    "title": "вулиця Молодогвардійська, 1Д",
+    "coordinates": {
+      "latitude": 48.47911559659335,
+      "longitude": 35.10482993558213
+    }
+  },
+  {
+    "title": "вулиця Іларіонівська, 25",
+    "coordinates": { "latitude": 48.485717, "longitude": 35.131481 }
+  },
+  {
+    "title": "вулиця Маршала Малиновського, 88",
+    "coordinates": {
+      "latitude": 48.4692808479981,
+      "longitude": 35.09246719325357
+    }
+  },
+  {
+    "title": "вулиця Олександра Оцупа, 1Б",
+    "coordinates": {
+      "latitude": 48.505721058399835,
+      "longitude": 35.11421473558213
+    }
+  },
+  {
+    "title": "вулиця Космонавта Волкова, 20",
+    "coordinates": {
+      "latitude": 48.40315719086095,
+      "longitude": 35.13421226441786
+    }
+  },
+  {
+    "title": "вулиця Гаванська, 1",
+    "coordinates": { "latitude": 48.4127417, "longitude": 35.1104493 }
+  },
+  {
+    "title": "вулиця Молодогвардійська, 2",
+    "coordinates": { "latitude": 48.4762624, "longitude": 35.0939783 }
+  },
+  {
+    "title": "вулиця Курсантська, 21",
+    "coordinates": { "latitude": 48.4963663, "longitude": 35.117876 }
+  },
+  {
+    "title": "вулиця Повітряна, 5",
+    "coordinates": { "latitude": 48.471946, "longitude": 35.1006581 }
+  },
+  {
+    "title": "вулиця Автопаркова, 1",
+    "coordinates": { "latitude": 48.4284624, "longitude": 35.1267401 }
+  },
+
+  {
+    "title": "вулиця Курсантська, 7",
+    "coordinates": { "latitude": 48.4966753, "longitude": 35.1164796 }
+  },
+  {
+    "title": "вулиця Курсантська, 3",
+    "coordinates": { "latitude": 48.496299, "longitude": 35.114591 }
+  },
+  {
+    "title": "вулиця Гаванська, 4",
+    "coordinates": { "latitude": 48.412599, "longitude": 35.111314 }
+  },
+  {
+    "title": "вулиця Електрична, 1",
+    "coordinates": { "latitude": 48.404449, "longitude": 35.124147 }
+  },
+  {
+    "title": "вулиця Липова, 1",
+    "coordinates": { "latitude": 48.4872256, "longitude": 35.1193794 }
+  },
+  {
+    "title": "ул. Базовая, 2",
+    "coordinates": {
+      "latitude": 48.43025197030458,
+      "longitude": 35.12035725092502
+    }
+  },
+  {
+    "title": "вулиця Люблянська, 3",
+    "coordinates": {
+      "latitude": 48.47581817521276,
+      "longitude": 35.11681824907499
+    }
+  },
+  {
+    "title": "вулиця Автопаркова, 7",
+    "coordinates": { "latitude": 48.4305282, "longitude": 35.1279784 }
+  },
+  {
+    "title": "вулиця Лісопаркова, 14В",
+    "coordinates": {
+      "latitude": 48.48552462294787,
+      "longitude": 35.11660866441786
+    }
+  },
+  {
+    "title": "Запорізьке шосе, 26",
+    "coordinates": {
+      "latitude": 48.41897448706984,
+      "longitude": 35.022268393253576
+    }
+  },
+  {
+    "title": "вулиця Панікахи, 20",
+    "coordinates": {
+      "latitude": 48.401189382984825,
+      "longitude": 35.0256578779107
+    }
+  },
+  {
+    "title": "вулиця Бориса Кротова, 24",
+    "coordinates": {
+      "latitude": 48.39905587952247,
+      "longitude": 34.97837356441786
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 139",
+    "coordinates": {
+      "latitude": 48.39663871267452,
+      "longitude": 35.000711064417864
+    }
+  },
+  {
+    "title": "вулиця Бородинська, 41",
+    "coordinates": {
+      "latitude": 48.457428141891455,
+      "longitude": 35.03848573558214
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 147",
+    "coordinates": {
+      "latitude": 48.39382960752161,
+      "longitude": 35.00061675494661
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 19",
+    "coordinates": {
+      "latitude": 48.44153766192682,
+      "longitude": 35.024516497277716
+    }
+  },
+  {
+    "title": "вулиця Шинна, 18",
+    "coordinates": { "latitude": 48.418473, "longitude": 35.014423 }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 31а",
+    "coordinates": {
+      "latitude": 48.42856940525937,
+      "longitude": 35.01456796844141
+    }
+  },
+  {
+    "title": "вулиця Перемоги, 113",
+    "coordinates": { "latitude": 48.413847, "longitude": 35.007726 }
+  },
+  {
+    "title": "ул. Троицкая, 20а",
+    "coordinates": {
+      "latitude": 48.4585621656122,
+      "longitude": 35.03837495494998
+    }
+  },
+  {
+    "title": "вулиця Короленка, 3",
+    "coordinates": { "latitude": 48.464386, "longitude": 35.043856 }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 5",
+    "coordinates": {
+      "latitude": 48.446384037788974,
+      "longitude": 35.02817909727797
+    }
+  },
+  {
+    "title": "Запорожское ш., 20",
+    "coordinates": {
+      "latitude": 48.42217365164594,
+      "longitude": 35.022681510769516
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 167",
+    "coordinates": {
+      "latitude": 48.37724868190787,
+      "longitude": 34.99611286843874
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 122 а",
+    "coordinates": {
+      "latitude": 48.40597383905212,
+      "longitude": 34.994988954947424
+    }
+  },
+  {
+    "title": "вулиця Січових Стрільців, 94",
+    "coordinates": {
+      "latitude": 48.44464280640687,
+      "longitude": 35.02827143960651
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 144",
+    "coordinates": {
+      "latitude": 48.398263358373775,
+      "longitude": 34.99891391076835
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 149",
+    "coordinates": {
+      "latitude": 48.388723091779724,
+      "longitude": 35.00036272611062
+    }
+  },
+  {
+    "title": "вулиця Короленка, 4",
+    "coordinates": {
+      "latitude": 48.46392472796829,
+      "longitude": 35.04202213960734
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 162",
+    "coordinates": {
+      "latitude": 48.38469139765813,
+      "longitude": 34.99897652611045
+    }
+  },
+  {
+    "title": "вулиця Бориса Кротова, 24а",
+    "coordinates": {
+      "latitude": 48.39927538737011,
+      "longitude": 34.978350579180805
+    }
+  },
+  {
+    "title": "вулиця Січових Стрільців, 91",
+    "coordinates": {
+      "latitude": 48.445807705101004,
+      "longitude": 35.03145359727791
+    }
+  },
+  {
+    "title": "проспект Богдана Хмельницького, 122",
+    "coordinates": {
+      "latitude": 48.40588357217812,
+      "longitude": 34.99987686844007
+    }
+  },
+  {
+    "title": "Криворізьке шосе, 24",
+    "coordinates": {
+      "latitude": 48.429299742662565,
+      "longitude": 34.94285116844135
+    }
+  },
+  {
+    "title": "вулиця Томська, 283",
+    "coordinates": { "latitude": 48.454381, "longitude": 35.140573 }
+  },
+  {
+    "title": "ул. Василя Симоненка, 17",
+    "coordinates": {
+      "latitude": 48.407039599566424,
+      "longitude": 35.13308974232911
+    }
   }
 ]

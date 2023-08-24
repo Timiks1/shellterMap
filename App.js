@@ -21,17 +21,28 @@ export default function App() {
     longitude: 0,
   };
   const [nearestShelter, setNearestShelter] = useState(initialShelter);
+  const [userChangedMapRegion, setUserChangedMapRegion] = useState(false);
   useEffect(() => {
     Location.requestForegroundPermissionsAsync();
   });
   const onRegionChangeComplete = (region) => {
-    setMapRegion(region);
+    if (userChangedMapRegion) {
+      setMapRegion(region);
+      setUserChangedMapRegion(false);
+    }
   };
   const getUserLocation = async () => {
     try {
       const cachedLocation = await Location.getLastKnownPositionAsync();
       if (cachedLocation) {
         setUserLocation({
+          latitude: cachedLocation.coords.latitude,
+          longitude: cachedLocation.coords.longitude,
+        });
+
+        setMapRegion({
+          latitudeDelta: 0.04,
+          longitudeDelta: 0.04,
           latitude: cachedLocation.coords.latitude,
           longitude: cachedLocation.coords.longitude,
         });
@@ -44,13 +55,13 @@ export default function App() {
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
           });
+
           setMapRegion({
             latitudeDelta: 0.04,
             longitudeDelta: 0.04,
             latitude: location.coords.latitude,
             longitude: location.coords.longitude,
           });
-          locationSubscription.remove();
         }
       );
     } catch (error) {
@@ -109,6 +120,7 @@ export default function App() {
           showsUserLocation={true}
           region={mapRegion}
           onRegionChangeComplete={onRegionChangeComplete}
+          onPanDrag={() => setUserChangedMapRegion(true)}
         >
           {shelters.map((shelter, index) => (
             <Marker
@@ -141,9 +153,11 @@ export default function App() {
       <TouchableOpacity style={styles.button} onPress={getUserLocation}>
         <Text style={styles.buttonText}>Де я ?</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button} onPress={getNearestShelter}>
-        <Text style={styles.buttonText}>Найближче укриття</Text>
-      </TouchableOpacity>
+      {userLocation !== null ? (
+        <TouchableOpacity style={styles.button} onPress={getNearestShelter}>
+          <Text style={styles.buttonText}>Найближче укриття</Text>
+        </TouchableOpacity>
+      ) : null}
     </View>
   );
 }
